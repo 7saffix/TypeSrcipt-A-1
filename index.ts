@@ -34,7 +34,7 @@
   console.log(concatenateArrays(["1", "2", "3"], ["4", "5"]));
 
   class Vehicle {
-    constructor(private make: string, public year: number) {}
+    constructor(private make: string, private year: number) {}
     getInfo() {
       return `Make:${this.make},Year:${this.year}`;
     }
